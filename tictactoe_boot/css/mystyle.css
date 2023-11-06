@@ -1,0 +1,43 @@
+/* Reset das configurações do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
+    text-rendering: optimizeLegibility;
+}
+
+/* Definição do barra de navegação */
+.bg-cor-que-eu-quero {
+    background: rgb(48, 6, 2);
+}
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;   
+}
+
+.tabuleiro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 24rem;
+    height: 24rem;
+    margin-top: 2rem;
+}
+
+.celula {
+    width: 7rem;
+    gap: .5rem;
+    height: 7rem;
+    box-shadow: .25rem .25rem .25rem;
+    color: rgb(231, 224, 152);
+}
+
+#titulo {
+    margin-top: 7rem;
+    margin-left: 3rem;
+    color: rgb(224, 103, 103);
+}
+
